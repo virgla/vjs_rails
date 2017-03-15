@@ -63,7 +63,7 @@ var vjs = function(id, options, ready){
 var videojs = window['videojs'] = vjs;
 
 // CDN Version. Used to target right flash swf.
-vjs.CDN_VERSION = '4.9';
+vjs.CDN_VERSION = '5.11';
 vjs.ACCESS_PROTOCOL = ('https:' == document.location.protocol ? 'https://' : 'http://');
 
 /**
