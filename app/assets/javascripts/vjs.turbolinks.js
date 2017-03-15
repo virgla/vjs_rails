@@ -1,6 +1,6 @@
-$(document).on('page:receive', function() {
+$(document).on('turbolinks:load', function() {
   vjs.autoSetupTimeout(1);
 });
-$(document).on('page:restore', function() {
+$(document).on('turbolinks:visit', function() {
   vjs.autoSetupTimeout(1);
 });
